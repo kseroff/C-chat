@@ -1,0 +1,10 @@
+﻿  Server_MSI.cpp
+C:\Users\Kseroff\source\repos\Server_MSI\Server_MSI\Server_MSI.cpp(182,1): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Kseroff\source\repos\Server_MSI\Server_MSI\Server_MSI.cpp(290,27): warning C4930: std::lock_guard<std::mutex> lock(std::mutex): функция с прототипом не вызвана (предполагалось определение переменной?)
+C:\Users\Kseroff\source\repos\Server_MSI\Server_MSI\Server_MSI.cpp(304,27): warning C4930: std::lock_guard<std::mutex> lock(std::mutex): функция с прототипом не вызвана (предполагалось определение переменной?)
+C:\Users\Kseroff\source\repos\Server_MSI\Server_MSI\Server_MSI.cpp(304,27): warning C4101: lock: неиспользованная локальная переменная
+C:\Users\Kseroff\source\repos\Server_MSI\Server_MSI\Server_MSI.cpp(371,18): warning C4101: buffer: неиспользованная локальная переменная
+C:\Users\Kseroff\source\repos\Server_MSI\Server_MSI\Server_MSI.cpp(392,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Server_MSI.vcxproj -> C:\Users\Kseroff\source\repos\Server_MSI\x64\Debug\Server_MSI.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.

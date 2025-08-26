@@ -1,0 +1,151 @@
+﻿  Server_MSI.cpp
+  The contents of <string_view> are available only with C++17 or later.
+D:\vcpkg\installed\x64-windows\include\pqxx\errorhandler.hxx(24,1): error C2429: для функция языка "nested-namespace-definition" нужен флаг компилятора "/std:c++17"
+  The contents of <charconv> are available only with C++17 or later.
+D:\vcpkg\installed\x64-windows\include\pqxx\version.hxx(31,1): error C2429: для функция языка "nested-namespace-definition" нужен флаг компилятора "/std:c++17"
+D:\vcpkg\installed\x64-windows\include\pqxx\internal\libpq-forward.hxx(23,1): error C2429: для функция языка "nested-namespace-definition" нужен флаг компилятора "/std:c++17"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(58,1): error C2429: для функция языка "nested-namespace-definition" нужен флаг компилятора "/std:c++17"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(72,3): warning C4984: "if constexpr" — расширение языка C++17
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(74,8): warning C4984: "if constexpr" — расширение языка C++17
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(125,44): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(125,34): error C7525: Встроенные (inline) переменные требуют как минимум "/std:c++17".
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(125,56): error C2065: string_view: необъявленный идентификатор
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(125,56): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "x"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(125,64): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(126,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(126,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(151,39): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(151,1): error C2061: синтаксическая ошибка: идентификатор "string_view"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(159,3): warning C4984: "if constexpr" — расширение языка C++17
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(168,3): warning C4984: "if constexpr" — расширение языка C++17
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(170,5): warning C4984: "if constexpr" — расширение языка C++17
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(173,1): error C3688: недопустимый литеральный суффикс "sv"; не удалось найти литеральный оператор или шаблон литерального оператора "operator ""sv"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(182,1): error C3688: недопустимый литеральный суффикс "sv"; не удалось найти литеральный оператор или шаблон литерального оператора "operator ""sv"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(191,3): warning C4984: "if constexpr" — расширение языка C++17
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(197,5): warning C4984: "if constexpr" — расширение языка C++17
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(200,1): error C3688: недопустимый литеральный суффикс "sv"; не удалось найти литеральный оператор или шаблон литерального оператора "operator ""sv"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(203,8): warning C4984: "if constexpr" — расширение языка C++17
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(164,17): error C3861: description: идентификатор не найден
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(173,64): error C3861: description: идентификатор не найден
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(182,58): error C3861: description: идентификатор не найден
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(200,63): error C3861: description: идентификатор не найден
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(206,59): error C3861: description: идентификатор не найден
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(303,6): error C2039: "basic_string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(303,23): error C2988: неопознанное объявление или определение шаблона
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(303,23): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(303,23): error C2059: синтаксическая ошибка: <
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(303,29): error C2039: "byte": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(304,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(304,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(332,6): error C2039: "basic_string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(332,23): error C2988: неопознанное объявление или определение шаблона
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(332,23): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(332,23): error C2059: синтаксическая ошибка: <
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(332,29): error C2039: "byte": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(333,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(333,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(357,1): error C2429: для функция языка "nested-namespace-definition" нужен флаг компилятора "/std:c++17"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(376,22): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(376,34): error C2065: string_view: необъявленный идентификатор
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(376,34): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "class_name"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(376,51): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(392,31): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(392,43): error C2061: синтаксическая ошибка: идентификатор "string_view"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(402,31): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(402,43): error C2061: синтаксическая ошибка: идентификатор "string_view"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(434,14): error C2039: "basic_string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(434,1): error C2182: esc_bin: недопустимое использование типа "void"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(434,31): error C2065: basic_string_view: необъявленный идентификатор
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(434,37): error C2039: "byte": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(434,41): error C2065: byte: необъявленный идентификатор
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(434,43): error C2065: binary_data: необъявленный идентификатор
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(434,56): error C2062: тип "char" не требуется
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(439,14): error C2039: "basic_string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(439,1): error C2371: pqxx::internal::esc_bin: переопределение; различные базовые типы
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(434): message : см. объявление "pqxx::internal::esc_bin"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(439,31): error C2065: basic_string_view: необъявленный идентификатор
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(439,37): error C2039: "byte": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(439,41): error C2065: byte: необъявленный идентификатор
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(439,43): error C2065: binary_data: необъявленный идентификатор
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(444,16): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(444,1): error C2182: unesc_bin: недопустимое использование типа "void"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(444,28): error C2065: string_view: необъявленный идентификатор
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(444,28): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "escaped_data"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(444,47): error C2039: "byte": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(448,24): error C2039: "byte": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(448,28): error C2065: byte: необъявленный идентификатор
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(448,6): error C2923: std::basic_string: "byte" не является допустимым аргументом типа шаблон для параметра "_Elem"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(448): message : см. объявление "byte"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(448,6): error C2976: std::basic_string: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(2344): message : см. объявление "std::basic_string"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(449,33): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(449,18): error C2371: pqxx::internal::unesc_bin: переопределение; различные базовые типы
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(444): message : см. объявление "pqxx::internal::unesc_bin"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(449,45): error C2065: string_view: необъявленный идентификатор
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(449,45): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "escaped_data"
+D:\vcpkg\installed\x64-windows\include\pqxx\util.hxx(596,1): error C2429: для функция языка "nested-namespace-definition" нужен флаг компилятора "/std:c++17"
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(37,27): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(38,1): error C2504: string_view: не определен базовый класс
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(55,33): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(55,27): error C2061: синтаксическая ошибка: идентификатор "string_view"
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(55,27): error C2535: pqxx::zview::zview(void) noexcept: функция-член уже определена или объявлена
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(40): message : см. объявление "pqxx::zview::zview"
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(64,16): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(63,3): message : Сообщение диагностики возникло в созданной компилятором функции "pqxx::zview::zview(Args &&...)"
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(43,18): error C2760: синтаксическая ошибка: непредвиденный токен "{"; требуется ")"
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(43,18): error C2057: требуется константное выражение
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(45,16): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(45,1): error C2614: pqxx::zview: недопустимая инициализация члена: "string_view" не является базовым классом или членом
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(49,18): error C2760: синтаксическая ошибка: непредвиденный токен "{"; требуется ")"
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(49,18): error C2057: требуется константное выражение
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(51,16): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(51,1): error C2614: pqxx::zview: недопустимая инициализация члена: "string_view" не является базовым классом или членом
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(56,16): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(56,28): error C2065: other: необъявленный идентификатор
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(56,1): error C2614: pqxx::zview: недопустимая инициализация члена: "string_view" не является базовым классом или членом
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(70,16): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(70,1): error C2614: pqxx::zview: недопустимая инициализация члена: "string_view" не является базовым классом или членом
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(78,18): error C2760: синтаксическая ошибка: непредвиденный токен "{"; требуется ")"
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(78,18): error C2057: требуется константное выражение
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(79,16): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(79,1): error C2614: pqxx::zview: недопустимая инициализация члена: "string_view" не является базовым классом или членом
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(98,12): error C3861: data: идентификатор не найден
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(96,39): error C3615: Функция constexpr "pqxx::zview::c_str" не может возвращать константное выражение в качестве результата
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(99): message : сбой был вызван достижением конца функции constexpr
+D:\vcpkg\installed\x64-windows\include\pqxx\zview.hxx(143,1): error C2429: для функция языка "nested-namespace-definition" нужен флаг компилятора "/std:c++17"
+D:\vcpkg\installed\x64-windows\include\pqxx\strconv.hxx(39,1): error C2429: для функция языка "nested-namespace-definition" нужен флаг компилятора "/std:c++17"
+D:\vcpkg\installed\x64-windows\include\pqxx\strconv.hxx(207,53): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\strconv.hxx(219): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "pqxx::string_traits<TYPE>"
+D:\vcpkg\installed\x64-windows\include\pqxx\strconv.hxx(207,1): error C2061: синтаксическая ошибка: идентификатор "string_view"
+D:\vcpkg\installed\x64-windows\include\pqxx\strconv.hxx(260,45): error C2039: "string_view": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(31): message : см. объявление "std"
+D:\vcpkg\installed\x64-windows\include\pqxx\strconv.hxx(268): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "pqxx::forbidden_conversion<TYPE>"
+D:\vcpkg\installed\x64-windows\include\pqxx\strconv.hxx(260,1): fatal error C1003: число ошибок превышает 100; остановка компиляции
